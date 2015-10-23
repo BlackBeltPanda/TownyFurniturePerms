@@ -1,0 +1,6 @@
+name: TownyFurniturePerms
+main: main.java.me.BlackBeltPanda.TownyFurniturePerms.Main
+description: TownyFurniturePerms
+version: 1.0
+author: BlackBeltPanda
+depend: [Towny, FurnitureLib]
