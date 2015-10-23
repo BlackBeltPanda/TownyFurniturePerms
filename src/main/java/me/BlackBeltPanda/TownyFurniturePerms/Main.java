@@ -21,6 +21,5 @@ public class Main extends JavaPlugin implements Listener{
 		if (PlayerCacheUtil.getCachePermission(event.getPlayer(), event.getLocation(), 1, (byte)0, TownyPermission.ActionType.DESTROY)){
 			event.getID().remove(event.getPlayer());
 		}
-		else event.setCancelled(true);
 	}
 }
